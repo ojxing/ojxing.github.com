@@ -6,7 +6,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 --*/
 html, body{
     font-size: 100%;
-	background:	#fff;
+	background:	#dfdfdf;
 	font-family: 'Lato', sans-serif;
 }
 
@@ -40,9 +40,9 @@ li{ list-style:none;}
 html,body{ height:100%; font-family:"微软雅黑";}
 .nav{ height:80px; background:rgba(0,133,115,1); text-align:center; position:fixed; width:100%;z-index:999;}
 .nav ul{ display:inline-block; height:80px; }
-.nav ul li{ float:left; line-height:80px; }
-.nav ul li a{ display:block; padding:0 10px; font-size:18px; color:#333;}
-.nav ul li a:hover,.nav ul li a.cur{ color:#C30;}
+.nav ul li{ float:left; line-height:80px; ;}
+.nav ul li a{ display:block; padding:0 10px; font-size:18px; color:#fff;}
+.nav ul li a:hover,.nav ul li a.cur{ color:#02ff1a;}
 .conBox{height:100%; text-align:center; font-size:30px; line-height:500px; color:#fff;}
 
 
@@ -474,6 +474,10 @@ html,body{ height:100%; font-family:"微软雅黑";}
   .callbacks_nav {
     top: 47%;
     }
+	.nav ul li a{
+		font-size:12px;
+		padding:0 2px;
+		}
 }
 /*----*/
 .callbacks_tabs a{
@@ -529,7 +533,11 @@ ul.callbacks_tabs.callbacks2_tabs {
 	margin-top:3.5em;
 }
 .contact-btn a {
-  padding: 19px 140px;
+ display:block;
+ margin:10px;
+ width:350px;
+ padding:15px 0;
+ text-align:center;
   color: #fff;
   background: #3c3c3c;
   font-size: 15px;
@@ -921,7 +929,10 @@ a.hvr-sweep-to-right:hover:before,a.hvr-sweep-to-right:focus:before,a.hvr-sweep-
   padding: 2.7em 0px 3.5em 0px;
 }
 .contact-btn a {
-  padding: 18px 135px;
+	display:block;
+  padding: 18px 0;
+  text-align:center;
+  width:350px;
 }
 .contact {
   padding: 5em 0px;
@@ -1455,6 +1466,7 @@ a.hvr-sweep-to-right:hover:before,a.hvr-sweep-to-right:focus:before,a.hvr-sweep-
   margin-top: 5px;
 }
 .about {
+	background:#ccc;
   padding: 2em 0px;
 }
 .services-mian p {
@@ -1506,7 +1518,6 @@ a.hvr-sweep-to-right:hover:before,a.hvr-sweep-to-right:focus:before,a.hvr-sweep-
   letter-spacing: 1px;
 }
 .contact-btn a {
-  padding: 7px 30px;
   font-size: 12px;
 }
 .contact-btn {
@@ -1593,10 +1604,28 @@ a.hvr-sweep-to-right:hover:before,a.hvr-sweep-to-right:focus:before,a.hvr-sweep-
 
 #biaoti{
 	margin-bottom:80px;
+	background:#dfdfdf;
 	}
 
 
-
-
-
+#senav{
+	position:fixed;
+	left:0px;
+	top:80px;
+	
+	z-index:999;
+	}
+#senav a{
+	display:block;
+	width:240px;
+	text-align:center;
+	line-height:40px;
+	padding:10px 0;
+	color:#fff;
+	background:rgba(0,133,115,0.4);
+	}
+#senav a:hover{
+	color:#fff;
+	background:rgba(0,133,115,1);
+	}
 
